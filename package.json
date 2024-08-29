@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Deividas (https://github.com/DeiVor24)",
   "license": "ISC",
-  "description": "Užduočių valdymo APP, kur įvesti duomenys yra saugomo localhost",
+  "description": "Užduočių valdymo APP, kur įvesti duomenys yra saugomi localStorage",
   "devDependencies": {
     "dead-server": "^1.0.9"
   }
