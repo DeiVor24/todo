@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Užduočių valdymo APP, kur įvesti duomenys yra saugomo localhost",
   "devDependencies": {
     "dead-server": "^1.0.9"
   }
