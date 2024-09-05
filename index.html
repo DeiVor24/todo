@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo</title>
     <link rel="stylesheet" href="./css/main.css">
-    
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-<link rel="manifest" href="./favicon/site.webmanifest">
-<link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
     <header class="main-header">
-        <img class="logo" src="./img/TODO.logo.png" alt="logo">
+        <img class="logo" src="./img/TODO.logo.png" alt="Logo">
         <div class="stats">
-            <div class="detail" >
-                <span class="label" >Viso: </span>
-                <span class="value" >0</span>
+            <div class="detail">
+                <span class="label">Viso:</span>
+                <span class="value">0</span>
             </div>
-            <div class="detail" >
-                <span class="label" >Todo: </span>
-                <span class="value" >0</span>
+            <div class="detail">
+                <span class="label">Todo:</span>
+                <span class="value">0</span>
             </div>
-            <div class="detail" >
-                <span class="label" >In-progress: </span>
-                <span class="value" >0</span>
+            <div class="detail">
+                <span class="label">In-progress:</span>
+                <span class="value">0</span>
             </div>
-            <div class="detail" >
-                <span class="label" >Done: </span>
-                <span class="value" >0</span>
+            <div class="detail">
+                <span class="label">Done:</span>
+                <span class="value">0</span>
             </div>
-            <div class="detail" >
-                <span class="label" >Deleted: </span>
-                <span class="value" >0</span>
+            <div class="detail">
+                <span class="label">Deleted:</span>
+                <span class="value">0</span>
             </div>
-
         </div>
+        <button class="btn">
+            <span class="icon">+</span>
+            <span class="text">New task</span>
+        </button>
     </header>
-    
+
     <main class="main-content">
         <h1 class="main-title">Darbų planavimo platforma</h1>
         <div class="lightbox" data-visible="false">
@@ -184,12 +188,14 @@
                 <ul class="list">LIST...</ul>
             </div>
         </section>
+        <div class="task-menu-background"></div>
     </main>
 
-    <footer class="main-footer" >
-            Cipyright &copy;
+    <footer class="main-footer">
+        Cipyright &copy; ir 🐱
     </footer>
 
-<script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
+
 </html>
